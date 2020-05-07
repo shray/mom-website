@@ -1,0 +1,32 @@
+- title: home
+  url: /
+  external: false
+
+- title: research
+  url: /research/
+  external: false
+
+- title: teaching
+  url: /teaching/
+  external: false
+
+- title: students
+  url: /students/
+  external: false
+
+- title: contact
+  url: /contact/
+  external: false # set true if you using external link, see bellow
+
+- title: personal
+  url: /personal/
+  external: false # set true if you using external link, see bellow
+
+- title: cv
+  url: /assets/docs/cv.pdf
+  external: false # set true if you using external link, see bellow
+
+# Example:
+# - title: github
+#   url: https://github.com/piharpi/jekyll-klise
+#   external: true

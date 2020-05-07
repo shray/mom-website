@@ -1,0 +1,111 @@
+# Site settings
+title: Sangeeta Bansal
+description: >-
+  Professor in Economics
+lang: en-US
+image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+repo: temp.github.com
+mode: light # default theme "dark" | "light"
+
+# Profile settings
+author:
+  name: Sangeeta Bansal
+  bio: >-
+    <p>
+    Sangeeta Bansal is a Professor of Economics at the Centre for International Trade and Development, 
+    Jawaharlal Nehru University since 2010. 
+    She visited the Department of Agricultural and Resource Economics, University of California, 
+    Berkeley in 2013-2014 and in 2015. 
+    She has served as the Chairperson of the Centre for International Trade and Development from 2008-2010, 
+    and has been an associate professor at the University since 2004.
+    </p>
+    <p>
+    She received her Masters in Economics from the Delhi School of Economics and her PhD in Economics from the 
+    Indian Statistical Institute.
+    </p>
+
+    <p>
+    Her research interests are in environmental and agricultural policy, development economics, economics of technological change, information economics and micro-economic theory. 
+    </p>
+
+    <p>
+    She is an Associate Editor of the journal Resource and Energy Economics, has been Editorial Board member 
+    of the journal Environmental and Development Economics, recipient of the 2008 ICSSR-NWO research grant, 
+    2004 European Summer School Grant, 2003 Grant for participating in the Environmental Economics and Policy Making 
+    at Goteborg University, Sweden. She has visited the economics department at the University of California, 
+    Berkeley, USA, Tilburg University, Netherlands, Goteborg University, Sweden, and the Indian Statistical Institute, India.
+    </p>
+
+    <p>
+    Sangeeta was the recipient of Fulbright-Nehru Senior Research Fellowship 2013-14 to visit University of California, Berkeley.
+    </p>
+
+    <p>
+    Sangeeta has provided consultancy to International Food Policy Research Institute, Washington D. C., USA, Vi UNCTAD, Geneva, and Ministry of Environment and Forests, India, SANDEE on several research projects.     </p>
+    </p>
+
+  username: username
+  email: your-email@email.com
+  avatar: /assets/img/sangeeta_crop2.jpg
+
+# Url settings
+url: "blank"
+baseurl:
+permalink: /:title/
+google_analytics:
+fb_appid:
+
+# Collection setting
+collections:
+  posts:
+    output: true
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: false
+
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+# Build settings
+sass:
+  style: compressed
+
+include:
+  - _redirects
+  - .htaccess
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CHANGELOG.md
+  - README.md
+  - node_modules
+  - CODE_OF_CONDUCT.md
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sass-converter
+  - jekyll-sitemap
+  - jekyll-postfiles
