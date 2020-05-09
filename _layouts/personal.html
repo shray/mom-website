@@ -1,0 +1,36 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+
+{% include header.html %}
+
+<body>
+  {% include navbar.html %}
+  <div class="wrapper">
+    <header class="header">
+      <h1 class="header-title center" itemprop="headline">{{ page.title | escape }}</h1>
+    </header>
+    <main class="page-content" aria-label="Content">
+      {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=true h_min=4 h_max=4 %}
+      <p>I also have a personal life.</p>
+
+      <h1> Family </h1>
+      I have a loving family and at least one good son.
+      <img class="personal" src="/assets/img/family.jpg"/>
+      And a husband who's destined to accompany me on my adventures
+      <img class="personal" src="/assets/img/sanjeev.png"/>
+      <h1> Art </h1>
+      I enjoyed oil-pastel painting until research and house-work crying children intervened.
+      <img class="personal" src="/assets/img/painting.jpg"/>
+      <h1> Travels </h1>
+      I love to travel with my family.
+      <img class="personal" src="/assets/img/chicago.jpeg"/>
+    </main>
+    {% include footer.html %}
+  </div>
+</body>
+
+</html>
