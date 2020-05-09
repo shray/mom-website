@@ -11,28 +11,29 @@ mode: light # default theme "dark" | "light"
 author:
   name: Sangeeta Bansal
   bio: >-
+    <div id="bio">
     <p>
-    Sangeeta Bansal is a Professor of Economics at the Centre for International Trade and Development, 
-    Jawaharlal Nehru University since 2010. 
-    She visited the Department of Agricultural and Resource Economics, University of California, 
-    Berkeley in 2013-2014 and in 2015. 
-    She has served as the Chairperson of the Centre for International Trade and Development from 2008-2010, 
+    Sangeeta Bansal is a Professor of Economics at the Centre for International Trade and Development,
+    Jawaharlal Nehru University since 2010.
+    She visited the Department of Agricultural and Resource Economics, University of California,
+    Berkeley in 2013-2014 and in 2015.
+    She has served as the Chairperson of the Centre for International Trade and Development from 2008-2010,
     and has been an associate professor at the University since 2004.
     </p>
     <p>
-    She received her Masters in Economics from the Delhi School of Economics and her PhD in Economics from the 
+    She received her Masters in Economics from the Delhi School of Economics and her PhD in Economics from the
     Indian Statistical Institute.
     </p>
 
     <p>
-    Her research interests are in environmental and agricultural policy, development economics, economics of technological change, information economics and micro-economic theory. 
+    Her research interests are in environmental and agricultural policy, development economics, economics of technological change, information economics and micro-economic theory.
     </p>
 
     <p>
-    She is an Associate Editor of the journal Resource and Energy Economics, has been Editorial Board member 
-    of the journal Environmental and Development Economics, recipient of the 2008 ICSSR-NWO research grant, 
-    2004 European Summer School Grant, 2003 Grant for participating in the Environmental Economics and Policy Making 
-    at Goteborg University, Sweden. She has visited the economics department at the University of California, 
+    She is an Associate Editor of the journal Resource and Energy Economics, has been Editorial Board member
+    of the journal Environmental and Development Economics, recipient of the 2008 ICSSR-NWO research grant,
+    2004 European Summer School Grant, 2003 Grant for participating in the Environmental Economics and Policy Making
+    at Goteborg University, Sweden. She has visited the economics department at the University of California,
     Berkeley, USA, Tilburg University, Netherlands, Goteborg University, Sweden, and the Indian Statistical Institute, India.
     </p>
 
@@ -43,10 +44,11 @@ author:
     <p>
     Sangeeta has provided consultancy to International Food Policy Research Institute, Washington D. C., USA, Vi UNCTAD, Geneva, and Ministry of Environment and Forests, India, SANDEE on several research projects.     </p>
     </p>
+    </div>
 
   username: username
   email: your-email@email.com
-  avatar: /assets/img/sangeeta_crop3.jpg
+  avatar: /assets/img/IMG_0619.png
 
 # Url settings
 url: "blank"
