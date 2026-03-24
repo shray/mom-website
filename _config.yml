@@ -32,6 +32,7 @@ author:
 
     
     </div>
+    
 
   username: username
   email: your-email@email.com
@@ -98,3 +99,4 @@ plugins:
   - jekyll-sass-converter
   - jekyll-sitemap
   - jekyll-postfiles
+  
